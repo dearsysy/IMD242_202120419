@@ -24,7 +24,7 @@ void draw() {
   fill(255);
   circle(280, 210, 60);
   
-  // eye_pupil_L
+  // eye_pupil_L_chat gpt
   float leftPupilX = constrain(mouseX, 280 - 14, 280 + 14);
   float leftPupilY = constrain(mouseY, 210 - 14, 210 + 14);
   fill(0);
@@ -34,7 +34,7 @@ void draw() {
   fill(255);
   circle(360, 210, 60);
   
-  // eye_pupil_R
+  // eye_pupil_R_chat gpt
   float rightPupilX = constrain(mouseX, 360 - 14, 360 + 14); 
   float rightPupilY = constrain(mouseY, 210 - 14, 210 + 14);
   fill(0);
